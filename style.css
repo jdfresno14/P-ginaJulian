@@ -1,4 +1,10 @@
+@font-face {
+	font-family: "fuente";
+	src: url("fonts/Playwrite_DK_Loopet/PlaywriteDKLoopet-VariableFont_wght.ttf");
+}
+
 body{
+	font-family: "fuente";
     background-color: rgb(255, 228, 196);
 }
 
@@ -21,19 +27,26 @@ img{
     background-color: rgb(255, 255, 255);
  }
  .foto{
+	object-fit: cover;
     width: 45%;
     display: inline-block;
     margin-left: 2%;
-    margin-right: 3%;
+    margin-right: 1%;
+    position: relative;
+    top: 70px;
     
  }
  .foto1{
-    width: 47%;
+	object-fit: cover;
+    width: 45%;
     display: inline-block;
-    margin-left:1%;
+    margin-left: 2%;
     margin-right: 1%;
+    position: relative;
+    top: 70px;
  }
  .foto2{
+	object-fit: cover;
     width: 45%;
     display: inline-block;
     margin-left: 2%;
@@ -42,12 +55,50 @@ img{
     top: 70px;
  }
  .foto3{
-    width: 44%;
+	object-fit: cover;
+    width: 45%;
     display: inline-block;
-    margin-left: 1%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 1%;
     position: relative;
-    top: 130px;
+    top: 70px;
+ }
+ .foto4{
+	object-fit: cover;
+    width: 45%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 1%;
+    position: relative;
+    top: 70px;
+    
+ }
+ .foto5{
+	object-fit: cover;
+    width: 45%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 1%;
+    position: relative;
+    top: 70px;
+ }
+ .foto6{
+	object-fit: cover;
+    width: 45%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 1%;
+    position: relative;
+    top: 70px;
+ }
+ .foto7{
+	object-fit: cover;
+    width: 45%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 1%;
+    position: relative;
+    top: 70px;
  }
  .myButton {
 	box-shadow:inset -50px 21px 0px -50px #bbdaf7;
