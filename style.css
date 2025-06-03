@@ -14,7 +14,7 @@ h1{
 
 
 img{
-    width: 7+0%;
+    width: 70%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -362,30 +362,36 @@ td{
 .thb1{
       text-align: center; 
 	background-color:  #724314;
+	 border-style: double;
 }  
 
 .thb2{
 	text-align: center;
 	background-color:  #724314;
+	 border-style: double;
 	
 }
 .thb3{
       text-align: center; 
 	background-color:  #724314;
+	 border-style: double;
 }  
 .thb4{
       text-align: center; 
 	background-color:  #724314;
+	 border-style: double;
 }  
 .th6{
 	width: 10%;
 	height: 100%;
 	background-color: #724314;
 	border:5px #000000;
+	border-style: double;
 }
 .th8{
 	width: 11%;
 	height: 100%;
 	background-color: #724314;
 	border:5px #000000;
+	border-style: double;
 }
