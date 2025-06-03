@@ -14,7 +14,7 @@ h1{
 
 
 img{
-    width: 90%;
+    width: 7+0%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -25,6 +25,12 @@ img{
 }
 .grupo-fotos{
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
  }
  .foto{
 	object-fit: cover;
@@ -40,7 +46,7 @@ img{
 	object-fit: cover;
     width: 40%;
     display: inline-block;
-    margin-left: 2%;
+    margin-left: -10%;
     margin-right: 1%;
     position: relative;
     top: 70px;
@@ -50,25 +56,25 @@ img{
 	object-fit: cover;
     width: 45%;
     display: inline-block;
-    margin-left: 2%;
+    margin-left: -5%;
     margin-right: 1%;
     position: relative;
     top: 70px;
  }
  .foto2{
 	object-fit: cover;
-    width: 45%;
+    width: 40%;
     display: inline-block;
-    margin-left: 2%;
-    margin-right: 1%;
+    margin-left: -13%;
+    margin-right: 0%;
     position: relative;
-    top: 70px;
+    top: 40px;
  }
  .foto3{
 	object-fit: cover;
-    width: 45%;
+    width: 43%;
     display: inline-block;
-    margin-left: 2%;
+    margin-left: -8%;
     margin-right: 1%;
     position: relative;
     top: 70px;
@@ -85,16 +91,16 @@ img{
  }
  .foto5{
 	object-fit: cover;
-    width: 45%;
+    width: 38%;
     display: inline-block;
-    margin-left: 2%;
+    margin-left: -5%;
     margin-right: 1%;
     position: relative;
     top: 70px;
  }
  .foto6{
 	object-fit: cover;
-    width: 45%;
+    width: 40%;
     display: inline-block;
     margin-left: 2%;
     margin-right: 1%;
@@ -103,9 +109,9 @@ img{
  }
  .foto7{
 	object-fit: cover;
-    width: 45%;
+    width: 46%;
     display: inline-block;
-    margin-left: 2%;
+    margin-left: -5.5%;
     margin-right: 1%;
     position: relative;
     top: 70px;
@@ -125,7 +131,6 @@ img{
 	padding:15px 20px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #386a9c;
-	margin-left: 90%;
 	
 }
 .myButton:hover {
@@ -307,4 +312,80 @@ img{
     top: -220px;
     left: -450px;
 	
+}
+
+.th1{
+	background-color: #c5acac;
+	border:5px #000000;
+	border-style: ridge;
+}
+.td1{
+	background-color: #2d0a0a;
+	border:5px #15ea63e3;
+	border-style: double;
+}
+.td{
+	background-color: #724314;
+	border:5px #190303;
+	border-style: ridge;
+}
+.th{
+	background-color: #724314;
+	border:5px #190303;
+	border-style: double;
+}
+.tr{
+	background-color: #0a2d0b;
+	border:5px #8315eae3;
+	border-style: double;
+}
+.img-alineada {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.th2{
+	width: 50%;
+	height: 100%;
+	background-color: #724314;
+	border:5px #000000;
+	border-style: ridge;
+}
+tr{
+  text-align: center; 
+}
+td{
+  text-align: center; 
+}
+.thb1{
+      text-align: center; 
+	background-color:  #724314;
+}  
+
+.thb2{
+	text-align: center;
+	background-color:  #724314;
+	
+}
+.thb3{
+      text-align: center; 
+	background-color:  #724314;
+}  
+.thb4{
+      text-align: center; 
+	background-color:  #724314;
+}  
+.th6{
+	width: 10%;
+	height: 100%;
+	background-color: #724314;
+	border:5px #000000;
+}
+.th8{
+	width: 11%;
+	height: 100%;
+	background-color: #724314;
+	border:5px #000000;
 }
